@@ -22,9 +22,11 @@ table, td, th {
     background-repeat: no-repeat;
     height: 300px;
     background-image: url("https://images.pexels.com/photos/747964/pexels-photo-747964.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .name{
-    padding-top: 50px;
+    font-size: 25PX ;
+    padding-top: 41px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -34,7 +36,8 @@ table, td, th {
 
 .picholder{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    background-image: url("https://cdn.uc.assets.prezly.com/eada6057-ebf9-41a5-a3fa-084fb4dc6f6a/-/resize/1108x/-/quality/best/-/format/auto/");
+    background-image: url("https://www.becode.org/register/assets/images/logo_footer_small.png");
+    background-color: black;
     background-repeat: no-repeat;
     background-position: center;
     height: 250px;
@@ -64,6 +67,7 @@ table, td, th {
 
 body{
     font-family: 'Darker Grotesque', sans-serif;
+    background-image: url("");
 }
 
 hr {
