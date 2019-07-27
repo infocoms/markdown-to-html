@@ -5,25 +5,39 @@ table, td, th {
 }
 
 .profile{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 20%;
+    border-style: solid;
+    border-color: white;
+    border-radius: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 20%;
-    image-marg
-    margin-top: 10px;
+    position: relative;
+    top: 180px;
+    z-index: 99;
 }
-
+.bgname{
+    color: white;
+    text-shadow: 2px 2px 8px #000000;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-image: url("https://images.pexels.com/photos/747964/pexels-photo-747964.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
 .name{
-
+    padding-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
+
 }
 
 .picholder{
-    padding-top: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-
+    background-image: url("https://cdn.uc.assets.prezly.com/eada6057-ebf9-41a5-a3fa-084fb4dc6f6a/-/resize/1108x/-/quality/best/-/format/auto/");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
 }
 
 .quote{
@@ -41,13 +55,21 @@ table, td, th {
 }
 
 .container{
-    margin-left: 20px;
-    width: 80%;
+    width: 70%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background-color: grey;
 
 }
 
+body{
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
 
