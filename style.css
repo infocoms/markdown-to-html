@@ -49,27 +49,29 @@ table, td, th {
     float: left;
 }
 .summ{
-    padding-left: 40px;
+    padding-left: 20px;
     float: left;
     width: 500px;
 
 }
 .binfocontainer{
-    height: 200PX;
+    height: 170PX;
     width: 100%;
 }
 .count{
     float: right;
-    width: 50%;
+    width: 500px;
+
 }
 
 .hob{
-    width: 300px;
+    height: 400px;
+    width: auto;
 
 }
 
 .container{
-    width: 70%;
+    width: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -86,4 +88,32 @@ body{
     height: 1px;
     background-color: black;
     width: auto;
+}
+
+.inftext{
+    font-size: large;
+}
+.hobbti{
+    text-align: center;
+}
+.Row {
+    height: 100px;
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 0px;
+}
+.Column {
+    align-content: center;
+    display: table-cell;
+}
+
+.box{
+    padding-left: 130px;
+    flex-grow: 1;
+
+}
+.dotscontent{
+    align-content: center;
+    display: flex;
 }
