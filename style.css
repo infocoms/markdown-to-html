@@ -1,6 +1,5 @@
 table, td, th {
-    border: 1px solid black;
-    width: 100%;
+    width: 400px;
     border-collapse: collapse;
 }
 
@@ -44,12 +43,24 @@ table, td, th {
 }
 
 .quote{
-
     text-align: center;
 }
-
+.tablecont{
+    float: left;
+}
 .summ{
-    width: 300px;
+    padding-left: 40px;
+    float: left;
+    width: 500px;
+
+}
+.binfocontainer{
+    height: 200PX;
+    width: 100%;
+}
+.count{
+    float: right;
+    width: 50%;
 }
 
 .hob{
@@ -67,13 +78,12 @@ table, td, th {
 
 body{
     font-family: 'Darker Grotesque', sans-serif;
-    background-image: url("");
+    background-color: white;
 }
 
-hr {
-    display: block;
+
+.line{
     height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
+    background-color: black;
+    width: auto;
 }
-
